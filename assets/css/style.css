@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+    color: rgb(31, 31, 84);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 5vh 0;
+    background-image: url("../img/uriel-xtgONQzGgOE-unsplash.jpg"), linear-gradient(135deg, rgba(255, 255, 255, 0.2) 20%, rgba(120, 154, 255, 0.2) 60%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(31, 31, 84);
+    opacity: 0.35;
+}
+
+
+form {
+    padding: 0 4%;
+    margin-bottom: 4vh;
+    display: flex;
+}
+
+
+form input {
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    flex: 1 1 0;
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgb(31, 31, 84);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+form input:focus {
+    outline: 2px rgb(31, 31, 84) solid;
+}
+
+button {
+    font-size: 20px;
+    color: rgb(31, 31, 84);
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.384);
+
+    transition: background-color 200ms;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.weather-info {
+    margin-bottom: 1vh;
+    padding: 4%;
+}
+
+.weather-info img {
+    margin: 0 -40px;
+}
+
+.weather-info h1 {
+    color: rgb(31, 31, 84);
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+    font-weight: 700;
+}
+
+.weather-info div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-info div a {
+    text-decoration: none;
+    color: rgb(187, 60, 60);
+}
+
+.weather-info p {
+    padding: 0 8px;
+}
+
+.weather-info div p {
+    margin: 2vh 0;
+
+}
+
+.weather-info h3 {
+    font-size: 3rem;
+    margin: 2vh 0;
+    font-weight: 600;
+    color: rgb(31, 31, 84);
+}
+
+.weatherTable {
+    padding: 4%;
+    border-radius: 20px;
+}
+
+
+.weatherTable div {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.281);
+}
+
+.weatherTable div p {
+    padding: 2px;
+}
+
+
+#container {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 45vw;
+    border-radius: 20px;
+    padding: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    min-width: 400px;
+}
+
+
+#weather-info {
+    display: flex;
+    flex-direction: column;
+}
