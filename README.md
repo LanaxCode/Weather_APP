@@ -1,7 +1,7 @@
 THE WEATHER APP
 
 🚀 Demo
-[https://lanaxcode.github.io/DesignerChallange/](https://lanaxcode.github.io/Weather_APP/)
+https://lanaxcode.github.io/Weather_APP/
 
 💻 Built with
 HTML
